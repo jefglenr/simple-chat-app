@@ -14,6 +14,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+NOTE: To run locally, change the link:
+
+Client > App.js: const socket = io.connect("http://localhost:3001");
+Server > Index.js: origin: "http://localhost:3000",
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
